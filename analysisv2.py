@@ -5,10 +5,8 @@ import torch
 from transformers import AutoTokenizer,BertTokenizerFast, BertForQuestionAnswering
 
 
-# Define the bert tokenizer
 tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
 
-# Load the fine-tuned modeol
 # model = torch.load("/content/drive/MyDrive/Spring22/CS769/Project/model.pt",map_location=torch.device('cpu'))
 model = BertForQuestionAnswering.from_pretrained('kaporter/bert-base-uncased-finetuned-squad')
 model.eval()
@@ -124,9 +122,9 @@ for group in squad_dict['data']:
 qa_dict['how'][0]
 
 [(key , len(qa_dict[key])) for key in qa_dict.keys()]
-#DEV
 
-#TRAIN
+
+
 [(key , len(qa_dict[key])) for key in qa_dict.keys()]
 
 def has_numbers(inputString):
@@ -160,10 +158,3 @@ for element in qa_dict['how']:
 print(count / len(pred_dict))
 
 print(sum(([len(qa_dict[key]) for key in qa_dict.keys()])) , len(pred_dict))
-
-from google.colab import drive
-drive.mount('/content/drive')
-
-
-with open('kaporter_predictions.json', 'w') as fp:
-    json.dump(pred_dict, fp)
