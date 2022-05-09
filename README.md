@@ -1,4 +1,4 @@
-# Fixing SQuAD 2.0 Imbalance
+# Addressing Question Imbalance in SQuAD
 ## CS 769 - Advanced Natural Language Processing Project
 
 # Team
