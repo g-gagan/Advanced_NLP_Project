@@ -31,4 +31,5 @@ The directory structure of this repository is as follows -
      * [Train_DistilBERT.ipynb](./Final/Undersampling_Technique/Train_DistilBERT.ipynb)   
    * [Evaluation.ipynb](./Final/Evaluation.ipynb)
  * [CS769 Presentation.pptx](./CS769%20Presentation.pptx) (Presentation)
+ * [report.pdf](./CS769%20Presentation.pptx) (Report)
  * [README.md](./README.md)
