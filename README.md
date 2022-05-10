@@ -16,7 +16,7 @@ The directory structure of this repository is as follows -
    * [Experiments.ipynb](./Assignment3/Experiments.ipynb)
    * [analysisv2.py](./Assignment3/analysisv2.py)
    * [qaTrain.py](./Assignment3/qaTrain.py)
- * [Final](./Final) (Folder that contains notebooks used for the final submission)
+ * [Final](./Final) (Folder that contains notebooks used for the project)
    * [Dataset_Augmentation_Technique](./Final/Dataset_Augmentation_Technique) (Folder that contains notebooks for the Dataset Augmentation Approach)
      * [Create_Augmented_Dataset.ipynb](./Final/Dataset_Augmentation_Technique/Create_Augmented_Dataset.ipynb)
      * [Train_BERT.ipynb](./Final/Dataset_Augmentation_Technique/Train_BERT.ipynb)
