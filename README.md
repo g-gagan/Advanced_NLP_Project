@@ -8,7 +8,7 @@ Gagan Gopinath, Sai Raghava Mukund Bhamidipati, Tarun Anand
 ### Directory Structure
 The directory structure of this repository is as follows -
 
- * [Initial Experiment & Analysis](./Assignment3) (Folder that contains scripts and notebooks used for the proposal)
+ * [Initial Experiment & Analysis](./Assignment3) (Folder that contains scripts and notebooks used for initial experiments & analysis)
    * [EXPT_Eval.ipynb](./Assignment3/EXPT_Eval.ipynb)
    * [EXPT_Finetune.ipynb](./Assignment3/EXPT_Finetune.ipynb)
    * [Evaluation_BERT.ipynb](./Assignment3/Evaluation_BERT.ipynb)
@@ -31,5 +31,5 @@ The directory structure of this repository is as follows -
      * [Train_DistilBERT.ipynb](./Final/Undersampling_Technique/Train_DistilBERT.ipynb)   
    * [Evaluation.ipynb](./Final/Evaluation.ipynb)
  * [CS769 Presentation.pptx](./CS769%20Presentation.pptx) (Presentation)
- * [Report](./CS769%20Presentation.pptx) (Report)
+ * [report.pdf](./report.pdf) (Report)
  * [README.md](./README.md)
